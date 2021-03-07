@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.regions,
+.types {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+button {
+  background: rgb(114, 85, 243);
+  width: 10%;
+  height: 50px;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(70, 70, 211);
+  color: white;
+}
+.type {
+  background: rgb(255, 255, 93);
+}
+.type:hover {
+  background: yellowgreen;
+}
+.chart-container {
+  position: relative;
+  width: 80vw;
+}
+.display {
+  margin-top: 20px;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+}
+.selectNames {
+  margin-top: 10px;
+  height: 20px;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  text-align: center;
+  font-size: 15px;
+}
+.select-container {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  width: 20vw;
+}

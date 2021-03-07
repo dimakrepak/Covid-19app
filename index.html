@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <title>COVID-19</title>
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div class=regions>
+
+            <button class='region Asia'>Asia</button>
+            <button class='region Europe'>Europe</button>
+            <button class='region World'>World</button>
+            <button class='region Africa'>Africa</button>
+            <button class='region Americas'>Americas</button>
+        </div>
+        <div class=types>
+
+            <button class='type confirmed'>Confirmed</button>
+            <button class='type critical'>Critical</button>
+            <button class='type deaths'>Deaths</button>
+            <button class='type recovered'>Recovered</button>
+        </div>
+        <div class="display">
+            <div class="chart-container">
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="select-container">
+                <h2>Check News:</h2>
+                <select class="selectNames">
+                    <option value="">Select a Country</option>
+                </select>
+                <div class="info">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/chart.js"></script>
+</body>
+
+</html>
